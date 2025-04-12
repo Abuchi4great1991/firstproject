@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        body{
+            background-color: yellow;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+             background-color: black;
+             color: aliceblue;
+             padding: 10px;
+             text-transform: capitalize;
+        }
+        nav a{
+            color: aliceblue;
+        }
+        .hero{
+            text-align: center;
+        }
+       .my_btn{
+            float: center;
+            border-color: aqua;
+            width: 40%;
+            color: black;
+      }
+      .my_img{
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      header button{
+        background: transparent;
+        border: 0;
+        padding: 4px;
+      }
+      .product{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0 0 12px 0 rgba(238, 193, 193, 0.856);
+        width: 100%;
+      }
+      .products{
+        display: flex;
+        flex: row;
+        gap: 5px;
+      }
+      .action_item{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      .action_item button{
+        background: transparent;
+        padding: 5px;
+        border: 0;
+        font-weight: 600;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div>
+            <button><i class="fa-solid fa-user"></i></button>
+            <button><i class="fa-solid fa-cart-plus"></i></button>
+            <button><i class="fa-solid fa-headset"></i></button>
+        </div>
+    </header>
+    <nav>
+        <a href="">best sellers</a>
+        <a href="">discount sales</a>
+        <a href="">trending</a>
+        
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Gloria trends</h2>
+            <h3>GET STARTED WITH OUR BEST DEALS</h3>
+            <p style="text-align: center;">your favourite shopping experience</p>
+            <button class="my_btn">Go shopping</button>
+        </section>
+
+        <!-- end of hero  -->
+
+        <section>
+                  <h3>MEN AND WOMEN FASHION COLLECTION</h3>
+                  <section class="products">
+                    <div class="product">
+                        <h6>UNISEXX T-SHIRT</h6>
+                        <h6 style="color: red;">N700</h6>
+                        <img width="50%" src="resources/pictures/t-shirt1.png" alt="">
+                        <div class="action_item">
+                            <button style="color: red;">buy now</button>
+                            <button>see more</button>
+
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <h6>UNISEXX T-SHIRT</h6>
+                        <h6 style="color: red;">N700</h6>
+                        <img width="50%" src="resources/pictures/t-shirt1.png" alt="">
+                        <div class="action_item">
+                            <button style="color: red;">buy now</button>
+                            <button>see more</button>
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="product">
+                        <h6>UNISEXX T-SHIRT</h6>
+                        <h6 style="color: red;">N700</h6>
+                        <img width="50%" src="resources/pictures/t-shirt1.png" alt="">
+                        <div class="action_item">
+                            <button style="color: red;">buy now</button>
+                            <button>see more</button>
+
+                        </div>
+                    </div>
+
+                  </section>
+       </section>
+    </main>
+    
+</body>
+</html>
